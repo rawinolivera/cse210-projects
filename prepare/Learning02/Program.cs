@@ -16,10 +16,7 @@ class Program
         job2._endYear = 2023;
 
         Resume resume1 = new Resume();
-        resume1._name = "Rawin Olivera";
         resume1._jobs.Add(job1);
-        resume1._jobs.Add(job2);
-
         resume1.Display();
     }
 }
